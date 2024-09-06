@@ -16,3 +16,13 @@ _site/
 # counterproductive to check this file into the repository.
 # Details at https://github.com/github/pages-gem/issues/768
 Gemfile.lock
+# Ignorar arquivos temporários e compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar o banco de dados SQLite
+*.db
+
+# Ignorar configurações do VS Code
+.vscode/
